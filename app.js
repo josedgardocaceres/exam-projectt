@@ -35,6 +35,7 @@ function displayPostsGrid(posts) {
     <p class="text">${post.acf.text}</p>
     <img src = "${post.acf.image}" alt = "${post.title.rendered}" />
     <p class="description">${post.acf.description}</p>
+    <p class="type">${post.acf.type}</p>
     <p class = "link"><a href="${post.acf.link}" target = "_blank">Platform Link</a></p>
   </article>
 
